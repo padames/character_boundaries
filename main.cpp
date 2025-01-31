@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
     std::string test_string = fruit[0];
 
-    std::string long_fruity_string = "Hello " + test_string + ", " + fruit[1];
+    std::string long_fruity_string = "Hello " + test_string + ", " + fruit[1] + "!";
     
     //Note: Since C++17 and ICU 76, you can use UTF-16 string literals with compile-time
     //      length determination. 
