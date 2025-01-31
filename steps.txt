@@ -1,0 +1,14 @@
+==========================================
+Steps to build and run the main.cpp file 
+
+1. Create a build folder for the build type
+   For debug:
+   $ cd ${PROJECT_HOME} && mkdir build-debug 
+   $ cd build-debug
+2. Run CMake on the CMakeList.txt file created in ${PROJECT_HOME}
+   $ cmake ../ -DCMAKE_BUILD_TYPE=debug
+3. Build using the compiler and linker fr om the makefile created 
+   in the previous step
+   $ make
+4. Run the executable if no errors from the previous step
+   $ ./cbd
